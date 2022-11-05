@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.count-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to bottom, #ff6e7f, #bfe9ff);
+  height: 350px;
+  width: 400px;
+  border-radius: 12px;
+}
+
+.heading {
+  color: #0f172a;
+  font-size: 32px;
+}
+
+.count-text {
+  color: #334155;
+  font-size: 20px;
+}
+
+.button {
+  color: #1e293b;
+  font-size: 12px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: none;
+  padding-right: 32px;
+  padding-left: 32px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+
+.note {
+  color: #334155;
+  font-size: 10px;
+}
